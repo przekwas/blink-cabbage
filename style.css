@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#cabbage {
+	position: absolute;
+}
+
+.blink {
+    opacity: 1;
+    animation-duration: 0.5s;
+    animation-name: blink-animation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes blink-animation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
